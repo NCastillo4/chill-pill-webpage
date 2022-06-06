@@ -155,8 +155,18 @@ h3{
     font-size: 18px;   
     color: #ffffff;    
 }
-CSS:
-7:02
+#cards_section{
+    display: flex;
+    justify-content: space-evenly;
+    height: 902px;
+}
+
+.card{
+border: solid 3px;
+color: #83BF4F;
+width: 516px;
+height: 595px;
+}
 #connect{
     background-color:#856BB4;
     height: 1014px;
