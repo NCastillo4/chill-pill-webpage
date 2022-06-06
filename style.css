@@ -1,0 +1,230 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+    height:100px;
+    border-bottom: 9px solid #EAF8FF;
+    margin-top:30px;
+}
+
+#language{
+    margin-left: 65px;
+}
+.language_buttonwithicon{
+    background-color: white;
+    font-family:'Nobile', sans-serif;
+    font-weight: 500;
+    font-size:24px;
+    color:#0299E3; 
+    box-sizing: border-box;
+    width:120px;
+    height:60px;  
+    border:2px solid #0299E3 !important;  
+    border-radius: 32px; 
+    margin-left:62px;
+}
+
+a{
+    font-family:'Nobile', sans-serif;
+    font-weight:500;
+    font-size:24px;
+    color:#000000;  
+    padding-right: 60px;
+}
+
+.signup{
+    box-sizing: border-box;
+    width:194px;
+    height:60px;
+    background-color: #ffffff;
+    border:2px solid #0299E3;
+    border-radius: 32px;
+    margin-right: 80px;
+    font-family:'Nobile', sans-serif;
+    font-weight: 500;
+    font-size:24px;
+    color:#0299E3;
+}
+
+.col-7{
+    
+    /*margin-right:350px;*/
+    margin-top:157px;
+}
+
+
+.title_text{
+    display:flex;
+    gap:10px;
+}
+
+.orange_text{
+    color:#F39801;
+    font-family:'Nobile', sans-serif;
+    font-weight: 700;
+    font-size: 64px; 
+}
+
+.blue_text{
+    font-family:'Nobile', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    color:#0299E3;
+}
+
+.subtext_1{
+    font-family:'Nobile', sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    color:#83BF4F;
+    margin-top:49px;
+}
+
+.subtext_2{
+    font-family:'Nobile', sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    color:#83BF4F;
+    margin-top:-12px;   
+}
+
+.app_description{
+    font-family:'Nobile', sans-serif;
+    font-weight: 200;
+    font-size: 36px;
+    color:#6F7370;
+    margin-top:70px;
+}  
+
+.col-5{
+    display:flex;
+    position: relative;
+}
+
+img.pill_gif{
+    width:100%;
+    height:auto;
+    margin-left:150px;
+} 
+
+.calendar{
+    width:180px;
+    height:180px;
+    position: absolute;
+    bottom: 130px;
+    right: -30px;
+  
+}
+
+#how_it_works{
+    background-color: #F39801;
+    height:1014px; 
+}
+
+.hiw_header{
+    font-family:'Nobile', sans-serif;
+    font-weight: 700;
+    font-size: 55px;
+    color: #ffffff;
+}
+
+.container-hiw{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top:200px;
+
+}
+
+
+h3{
+    font-family:'Nobile', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    text-align:center;
+    color: #ffffff;
+}
+
+.hiw_p{
+    font-family: 'Nobile', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;   
+    color: #ffffff;    
+}
+CSS:
+7:02
+#connect{
+    background-color:#856BB4;
+    height: 1014px;
+}
+.connect_title{
+    font-family:'Nobile', sans-serif;
+    font-weight: 700;
+    font-size: 55px;
+    color: #FFFFFF;
+    margin-left: 100px;
+    padding-top: 80px;
+}
+.connect_topcontainer{
+    display:flex;
+    justify-content: space-between;
+}
+.connecttext{
+    font-family: 'Nobile', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    width:859px;
+    color: #FFFFFF;
+    margin-left:100px;
+    margin-top:103px;
+}
+.pillprogression{
+    margin-left:100px;
+    margin-top:-100px;
+}
+.housewithkids{
+    margin-right: 150px;
+    width:600px;
+    height:673px;
+    margin-top:-90px;
+}
+#companyinfo{
+    display:flex;
+}
+.header_border{
+    border: 4px solid #FFAB01;
+    border-radius: 100px;
+    width:178px;
+    height:73px;
+}
+.info_header , .footer_headings{
+    font-family: 'Nobile', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #0299E3;
+    margin-top: 15px;
+    margin-left: 35px;
+}
+.footer_headings{
+    text-decoration: underline;
+    margin-top:67px;
+}
+.address , .subheadings{
+    font-family: 'Nobile', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #0299E3;
+}
+.emailicon, .phoneicon, .texticon{
+    margin-right:30px;
+}
+.footer_copyright{
+    display:flex;
+}
