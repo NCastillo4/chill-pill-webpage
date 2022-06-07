@@ -108,7 +108,7 @@ a{
 img.pill_gif{
     width:100%;
     height:auto;
-    margin-left:150px;
+    /*margin-left:150px; */
 } 
 
 .calendar{
@@ -159,13 +159,34 @@ h3{
     display: flex;
     justify-content: space-evenly;
     height: 902px;
+    align-items: center;
 }
 
 .card{
 border: solid 3px;
 color: #83BF4F;
-width: 516px;
-height: 595px;
+width: 25%;
+height: 60%;
+padding: 40px;
+}
+.cardtitle{
+    color: #83BF4F;
+    font-family: 'nobile', sans-serif;
+    font-weight: 700;
+    font-size: 32px; 
+}
+.card_text{
+    font-family:'Nobile', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #6F7370;
+}
+.cardlinks{
+    font-family:'Nobile', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #6F7370;
+    text-decoration: underline;
 }
 #connect{
     background-color:#856BB4;
@@ -176,9 +197,10 @@ height: 595px;
     font-weight: 700;
     font-size: 55px;
     color: #FFFFFF;
-    margin-left: 100px;
+    
     padding-top: 80px;
 }
+
 .connect_topcontainer{
     display:flex;
     justify-content: space-between;
@@ -190,15 +212,16 @@ height: 595px;
     font-size: 32px;
     width:859px;
     color: #FFFFFF;
-    margin-left:100px;
+    /*margin-left:100px;
     margin-top:103px;
+    */
 }
 .pillprogression{
-    margin-left:100px;
-    margin-top:-100px;
+   /* margin-left:100px;
+    margin-top:-100px;*/
 }
 .housewithkids{
-    margin-right: 150px;
+   /* margin-right: 150px;*/
     width:600px;
     height:673px;
     margin-top:-90px;
@@ -219,7 +242,7 @@ height: 595px;
     font-size: 24px;
     color: #0299E3;
     margin-top: 15px;
-    margin-left: 35px;
+    /*margin-left: 35px; */
 }
 .footer_headings{
     text-decoration: underline;
@@ -233,7 +256,7 @@ height: 595px;
     color: #0299E3;
 }
 .emailicon, .phoneicon, .texticon{
-    margin-right:30px;
+    padding-right:30px;
 }
 .footer_copyright{
     display:flex;
