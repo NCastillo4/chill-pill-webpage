@@ -171,9 +171,15 @@ h3{
 .card{
 border: solid 3px;
 color: #83BF4F;
-width: 25%;
+width: 30%;
 height: 60%;
-padding: 40px;
+padding: 30px;
+}
+
+.card_body{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .cardtitle{
     color: #83BF4F;
@@ -233,6 +239,15 @@ padding: 40px;
     display:flex;
     align-items: center;
 }
+
+.companyinfo ul li img {
+    padding-right: 20px;
+  }
+  
+  .companyinfo ul li {
+    padding: 10px 0;
+  }
+
 li{
     list-style: none;
     color: #0299E3;
@@ -283,13 +298,30 @@ height: 21px;
 }
 
 .footer_copyright{
-    display:flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 300px;
+    padding-left: 15px;
+}
+
+.footer_copyrightext{
+    font-family: 'Nobile', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #0299E3;
+}
+#copyright{
+    font-family: 'Nobile', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    color: #0299E3;
 }
 #bottom-stuff{
     display: flex;
     justify-content: space-between;
     border-top: solid 5px #0299E3;
-    padding-top: 20px;
-    
-    
+    padding-top: 20px;    
 }
