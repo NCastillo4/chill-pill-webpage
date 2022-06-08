@@ -4,6 +4,7 @@
 }
 body{
     overflow-x: hidden;
+    max-width: 100%;
 }
 header{
     display:flex;
@@ -29,7 +30,7 @@ header{
     border-radius: 32px; 
 }
 .fa-globe{
-    margin-right: 10px;
+    padding-right: 10px;
 }
 a{
     font-family:'Nobile', sans-serif;
@@ -46,7 +47,7 @@ a{
     background-color: #ffffff;
     border:2px solid #0299E3;
     border-radius: 32px;
-    margin-right: 80px;
+    padding-right: 80px;
     font-family:'Nobile', sans-serif;
     font-weight: 500;
     font-size:24px;
@@ -54,8 +55,6 @@ a{
 }
 
 .col-7{
-    
-    /*margin-right:350px;*/
     margin-top:157px;
 }
 
@@ -111,7 +110,7 @@ a{
 img.pill_gif{
     width:100%;
     height:auto;
-    /*margin-left:150px; */
+
 } 
 
 .calendar{
@@ -141,7 +140,9 @@ img.pill_gif{
     margin-top:200px;
 
 }
-
+.container-hiw img {
+    max-width: 100%;
+  }
 
 h3{
     font-family:'Nobile', sans-serif;
@@ -215,16 +216,14 @@ padding: 40px;
     font-size: 32px;
     width:859px;
     color: #FFFFFF;
-    /*margin-left:100px;
     margin-top:103px;
-    */
 }
-.pillprogression{
-   /* margin-left:100px;
-    margin-top:-100px;*/
-}
+/*.pillprogression{
+ 
+}*/
+
 .housewithkids{
-   /* margin-right: 150px;*/
+  
     width:600px;
     height:673px;
     margin-top:-90px;
@@ -250,7 +249,7 @@ li{
     font-size: 24px;
     color: #0299E3;
     margin-top: 15px;
-    /*margin-left: 35px; */
+    
 }
 .footer_headings{
     text-decoration: underline;
@@ -263,6 +262,9 @@ li{
     font-size: 20px;
     color: #0299E3;
 }
+.stay-connected-input img{
+    max-width: 90%;
+  }
 .emailicon, .phoneicon, .texticon{
     padding-right:30px;
 }
@@ -272,4 +274,5 @@ li{
 #bottom-stuff{
     display: flex;
     justify-content: space-between;
+    
 }
