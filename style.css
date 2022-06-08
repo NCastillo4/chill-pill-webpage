@@ -266,14 +266,30 @@ li{
 .stay-connected-input img{
     max-width: 90%;
   }
-.emailicon, .phoneicon, .texticon{
-    padding-right:30px;
+  .emailicon {
+    padding-right:50px;
+    width: 32px;
+    height: 21px;
 }
+.phoneicon {
+    padding-right:50px;
+    width: 32px;
+    height: 21px;
+}
+.texticon{
+padding-right:50px;
+width: 32px;
+height: 21px;
+}
+
 .footer_copyright{
     display:flex;
 }
 #bottom-stuff{
     display: flex;
     justify-content: space-between;
+    border-top: solid 5px #0299E3;
+    padding-top: 20px;
+    
     
 }
