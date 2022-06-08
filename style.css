@@ -2,7 +2,9 @@
   margin:0;
   padding:0;
 }
-
+body{
+    overflow-x: hidden;
+}
 header{
     display:flex;
     justify-content: space-between;
@@ -12,7 +14,7 @@ header{
 }
 
 #language{
-    margin-left: 65px;
+   padding-left: 20px;
 }
 .language_buttonwithicon{
     background-color: white;
@@ -25,9 +27,10 @@ header{
     height:60px;  
     border:2px solid #0299E3 !important;  
     border-radius: 32px; 
-    margin-left:62px;
 }
-
+.fa-globe{
+    margin-right: 10px;
+}
 a{
     font-family:'Nobile', sans-serif;
     font-weight:500;
@@ -228,6 +231,11 @@ padding: 40px;
 }
 #companyinfo{
     display:flex;
+    align-items: center;
+}
+li{
+    list-style: none;
+    color: #0299E3;
 }
 .header_border{
     border: 4px solid #FFAB01;
@@ -260,4 +268,8 @@ padding: 40px;
 }
 .footer_copyright{
     display:flex;
+}
+#bottom-stuff{
+    display: flex;
+    justify-content: space-between;
 }
