@@ -47,7 +47,7 @@ a{
     background-color: #ffffff;
     border:2px solid #0299E3;
     border-radius: 32px;
-    padding-right: 80px;
+    padding-right: -80px;
     font-family:'Nobile', sans-serif;
     font-weight: 500;
     font-size:24px;
@@ -132,6 +132,7 @@ img.pill_gif{
     font-weight: 700;
     font-size: 55px;
     color: #ffffff;
+    padding-left: 15px;
 }
 
 .container-hiw{
@@ -157,7 +158,8 @@ h3{
     font-style: normal;
     font-weight: 500;
     font-size: 18px;   
-    color: #ffffff;    
+    color: #ffffff; 
+    padding-top: 30px;   
 }
 #cards_section{
     display: flex;
@@ -182,14 +184,15 @@ padding: 40px;
 .card_text{
     font-family:'Nobile', sans-serif;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 18px;
     color: #6F7370;
+    padding-top: 25px;
 }
 .cardlinks{
     font-family:'Nobile', sans-serif;
     font-weight: 500;
-    font-size: 24px;
-    color: #6F7370;
+    font-size: 20px;
+    color: #0299E3;
     text-decoration: underline;
 }
 #connect{
@@ -218,9 +221,7 @@ padding: 40px;
     color: #FFFFFF;
     margin-top:103px;
 }
-/*.pillprogression{
- 
-}*/
+
 
 .housewithkids{
   
